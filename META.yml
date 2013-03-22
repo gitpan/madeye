@@ -1,0 +1,165 @@
+---
+abstract: 'enterprise-class monitoring solutions'
+author:
+  - 'Tokuhiro Matsuno <tokuhirom AAJKLFJEF GMAIL COM>'
+build_requires: {}
+dynamic_config: 0
+generated_by: 'Minilla/0.0.44, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: madeye
+provides:
+  App::MadEye:
+    file: lib/App/MadEye.pm
+    version: 0.10
+  App::MadEye::Plugin::Agent::Base:
+    file: lib/App/MadEye/Plugin/Agent/Base.pm
+    version: 0
+  App::MadEye::Plugin::Agent::DBI:
+    file: lib/App/MadEye/Plugin/Agent/DBI.pm
+    version: 0
+  App::MadEye::Plugin::Agent::DJabberd:
+    file: lib/App/MadEye/Plugin/Agent/DJabberd.pm
+    version: 0
+  App::MadEye::Plugin::Agent::DNS:
+    file: lib/App/MadEye/Plugin/Agent/DNS.pm
+    version: 0
+  App::MadEye::Plugin::Agent::FTP:
+    file: lib/App/MadEye/Plugin/Agent/FTP.pm
+    version: 0
+  App::MadEye::Plugin::Agent::FileSync:
+    file: lib/App/MadEye/Plugin/Agent/FileSync.pm
+    version: 0
+  App::MadEye::Plugin::Agent::Gearmand:
+    file: lib/App/MadEye/Plugin/Agent/Gearmand.pm
+    version: 0
+  App::MadEye::Plugin::Agent::HTTP:
+    file: lib/App/MadEye/Plugin/Agent/HTTP.pm
+    version: 0
+  App::MadEye::Plugin::Agent::Memcached:
+    file: lib/App/MadEye/Plugin/Agent/Memcached.pm
+    version: 0
+  App::MadEye::Plugin::Agent::Mogilefsd:
+    file: lib/App/MadEye/Plugin/Agent/Mogilefsd.pm
+    version: 0
+  App::MadEye::Plugin::Agent::MySQLSlave:
+    file: lib/App/MadEye/Plugin/Agent/MySQLSlave.pm
+    version: 0
+  App::MadEye::Plugin::Agent::POP3S:
+    file: lib/App/MadEye/Plugin/Agent/POP3S.pm
+    version: 0
+  App::MadEye::Plugin::Agent::Perlbal:
+    file: lib/App/MadEye/Plugin/Agent/Perlbal.pm
+    version: 0
+  App::MadEye::Plugin::Agent::Ping:
+    file: lib/App/MadEye/Plugin/Agent/Ping.pm
+    version: 0
+  App::MadEye::Plugin::Agent::Process:
+    file: lib/App/MadEye/Plugin/Agent/Process.pm
+    version: 0
+  App::MadEye::Plugin::Agent::SMTP:
+    file: lib/App/MadEye/Plugin/Agent/SMTP.pm
+    version: 0
+  App::MadEye::Plugin::Agent::SMTPTLS:
+    file: lib/App/MadEye/Plugin/Agent/SMTPTLS.pm
+    version: 0
+  App::MadEye::Plugin::Agent::SNMP::Disk:
+    file: lib/App/MadEye/Plugin/Agent/SNMP/Disk.pm
+    version: 0
+  App::MadEye::Plugin::Agent::SNMP::IPAddress:
+    file: lib/App/MadEye/Plugin/Agent/SNMP/IPAddress.pm
+    version: 0
+  App::MadEye::Plugin::Agent::SNMP::Process:
+    file: lib/App/MadEye/Plugin/Agent/SNMP/Process.pm
+    version: 0
+  App::MadEye::Plugin::Agent::SSLExpireDate:
+    file: lib/App/MadEye/Plugin/Agent/SSLExpireDate.pm
+    version: 0
+  App::MadEye::Plugin::Agent::Sleep:
+    file: lib/App/MadEye/Plugin/Agent/Sleep.pm
+    version: 0
+  App::MadEye::Plugin::Agent::TheSchwartz::Error:
+    file: lib/App/MadEye/Plugin/Agent/TheSchwartz/Error.pm
+    version: 0
+  App::MadEye::Plugin::Agent::TheSchwartz::Job:
+    file: lib/App/MadEye/Plugin/Agent/TheSchwartz/Job.pm
+    version: 0
+  App::MadEye::Plugin::Agent::WriteDisk:
+    file: lib/App/MadEye/Plugin/Agent/WriteDisk.pm
+    version: 0
+  App::MadEye::Plugin::Base:
+    file: lib/App/MadEye/Plugin/Base.pm
+    version: 0
+  App::MadEye::Plugin::Check::Flock:
+    file: lib/App/MadEye/Plugin/Check/Flock.pm
+    version: 0
+  App::MadEye::Plugin::Check::Network:
+    file: lib/App/MadEye/Plugin/Check/Network.pm
+    version: 0
+  App::MadEye::Plugin::Check::User:
+    file: lib/App/MadEye/Plugin/Check/User.pm
+    version: 0
+  App::MadEye::Plugin::Notify::Debug:
+    file: lib/App/MadEye/Plugin/Notify/Debug.pm
+    version: 0
+  App::MadEye::Plugin::Notify::Email:
+    file: lib/App/MadEye/Plugin/Notify/Email.pm
+    version: 0
+  App::MadEye::Plugin::Notify::IKC:
+    file: lib/App/MadEye/Plugin/Notify/IKC.pm
+    version: 0
+  App::MadEye::Plugin::Notify::IMKayac:
+    file: lib/App/MadEye/Plugin/Notify/IMKayac.pm
+    version: 0
+  App::MadEye::Plugin::Notify::Ikachan:
+    file: lib/App/MadEye/Plugin/Notify/Ikachan.pm
+    version: 0
+  App::MadEye::Plugin::Notify::Nakanobu:
+    file: lib/App/MadEye/Plugin/Notify/Nakanobu.pm
+    version: 0
+  App::MadEye::Plugin::Notify::XMPP:
+    file: lib/App/MadEye/Plugin/Notify/XMPP.pm
+    version: 0
+  App::MadEye::Plugin::Worker::Gearman:
+    file: lib/App/MadEye/Plugin/Worker/Gearman.pm
+    version: 0
+  App::MadEye::Plugin::Worker::Simple:
+    file: lib/App/MadEye/Plugin/Worker/Simple.pm
+    version: 0
+  App::MadEye::Rule:
+    file: lib/App/MadEye/Rule.pm
+    version: 0
+  App::MadEye::Rule::DateTimeCron:
+    file: lib/App/MadEye/Rule/DateTimeCron.pm
+    version: 0
+  App::MadEye::Rule::Interval:
+    file: lib/App/MadEye/Rule/Interval.pm
+    version: 0
+  App::MadEye::Rule::Retry:
+    file: lib/App/MadEye/Rule/Retry.pm
+    version: 0
+  App::MadEye::Util:
+    file: lib/App/MadEye/Util.pm
+    version: 0
+requires:
+  Class::Component: 0.17
+  Furl: 0
+  IO::Select: 0
+  IO::Socket::INET: 0
+  IO::Socket::SSL: 0
+  IPC::Open3: 0
+  Kwalify: 0
+  List::Util: 0
+  Log::Dispatch: 0
+  Net::SNMP: 0
+  Net::SSH: 0
+  Params::Validate: 0.91
+  Pod::POM: 0
+  Socket: 0
+  YAML: 0
+resources:
+  homepage: git://github.com/tokuhirom/madeye/tree
+  repository: git://github.com/tokuhirom/madeye.git
+version: 0.10
