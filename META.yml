@@ -1,10 +1,13 @@
 ---
 abstract: 'enterprise-class monitoring solutions'
 author:
-  - 'Tokuhiro Matsuno <tokuhirom AAJKLFJEF GMAIL COM>'
+  - 'Tokuhiro Matsuno <tokuhirom GMAIL COM>'
 build_requires: {}
+configure_requires:
+  CPAN::Meta: 0
+  Module::Build: 0.4
 dynamic_config: 0
-generated_by: 'Minilla/0.0.44, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Minilla/v0.0.49, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -13,7 +16,7 @@ name: madeye
 provides:
   App::MadEye:
     file: lib/App/MadEye.pm
-    version: 0.10
+    version: 0.11
   App::MadEye::Plugin::Agent::Base:
     file: lib/App/MadEye/Plugin/Agent/Base.pm
     version: 0
@@ -160,6 +163,7 @@ requires:
   Socket: 0
   YAML: 0
 resources:
-  homepage: git://github.com/tokuhirom/madeye/tree
+  bugtracker: https://github.com/tokuhirom/madeye/issues
+  homepage: https://github.com/tokuhirom/madeye
   repository: git://github.com/tokuhirom/madeye.git
-version: 0.10
+version: 0.11

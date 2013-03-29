@@ -3,7 +3,7 @@ Build.PL
 Changes
 LICENSE
 META.json
-README
+README.md
 config.yaml.sample
 cpanfile
 lib/App/MadEye.pm
